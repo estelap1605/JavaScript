@@ -17,13 +17,5 @@ var persona ={
     }
 };
 
-console.log(persona.direccion.pais);
-
-persona.direccion.zipcode=11111;
-
-var edificio = persona.direccion.edificio;
-
-edificio.nopiso="octpiso";
-
-
-console.log(persona);
+var campo = "edad";
+console.log(persona[campo]);
